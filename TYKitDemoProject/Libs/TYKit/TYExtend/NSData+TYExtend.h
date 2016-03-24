@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSData (TYExtend)
+- (NSData *)md5;
 
+- (NSString *)md5String;
 @end

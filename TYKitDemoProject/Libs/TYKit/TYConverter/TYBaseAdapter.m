@@ -10,7 +10,7 @@
 #import "TYAdaperManager.h"
 
 @implementation TYBaseAdapter
-+ (TYBaseAdapter *)adaterWithDictionary:(NSDictionary *)data{
++ (TYBaseAdapter *)adapterWithDictionary:(NSDictionary *)data{
     TYBaseAdapter *adapter = [[TYBaseAdapter alloc]init];
     adapter.sourceData = data;
     return adapter;

@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) NSDictionary *sourceData;
 
-+ (TYBaseAdapter *)adaterWithDictionary:(NSDictionary *)data;
++ (TYBaseAdapter *)adapterWithDictionary:(NSDictionary *)data;
 
 - (id)targetData;
 

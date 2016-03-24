@@ -10,4 +10,12 @@
 
 @interface NSArray (TYExtend)
 
+//防止越界
+- (id)objectAtSafeIndex:(NSInteger)index;
+
+//数字排序
+- (NSArray *)sortedWithArray:(NSArray *)numbers;
+
+//倒序数组
+- (NSArray *)reverseForArray:(NSArray *)array;
 @end

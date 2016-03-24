@@ -14,9 +14,11 @@
 - (NSString *)host;
 - (NSString *)preStrWithKey:(NSString *)key;
 - (NSString *)lastStrWithKey:(NSString *)key;
+- (NSDate *)dateWithFormat:(NSString *)format;
 - (NSString *)yearStrInDateWithFormat:(NSString *)format;
 - (NSString *)monthStrInDateWithFormat:(NSString *)format;
 - (NSString *)dayStrInDateWithFormat:(NSString *)format;
 - (NSString *)md5;
 - (BOOL)isIncludeSpecialCharact;
+- (BOOL)isPureInt;
 @end

@@ -20,7 +20,6 @@
 
 @interface TYNetworkUtil : NSObject
 
-
 + (BOOL)checkJson:(id)json withValidator:(id)validatorJson;
 
 + (NSString *)urlStringWithOriginUrlString:(NSString *)originUrlString
